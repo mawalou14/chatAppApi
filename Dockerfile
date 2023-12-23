@@ -26,3 +26,6 @@ FROM node:14 As production
 
 ARG NODE_ENV=production
 ENV NODE_ENV=${NODE_ENV}
+
+# Set working dir
+WORKDIR /mawalou14/src/app

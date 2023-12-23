@@ -14,3 +14,6 @@ RUN npm install
 
 # Bundle APP Sources
 COPY . .
+
+
+EXPOSE 3000

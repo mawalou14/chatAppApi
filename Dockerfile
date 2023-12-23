@@ -29,3 +29,6 @@ ENV NODE_ENV=${NODE_ENV}
 
 # Set working dir
 WORKDIR /mawalou14/src/app
+
+COPY --from=development /mawalou14/src/app .
+

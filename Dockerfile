@@ -23,3 +23,6 @@ EXPOSE 3000
 ## PRODUCTION ###
 #################
 FROM node:14 As production
+
+ARG NODE_ENV=production
+ENV NODE_ENV=${NODE_ENV}

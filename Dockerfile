@@ -8,3 +8,6 @@ WORKDIR /mawalou14/src/app
 # Copy package-lock json & package.json from
 # host to container working dir
 COPY package*.json ./
+
+# Install all deps inside the container
+RUN npm install

@@ -33,3 +33,6 @@ WORKDIR /mawalou14/src/app
 COPY --from=development /mawalou14/src/app .
 
 EXPOSE 8000
+
+# run application
+CMD ["node", "dist/main"]

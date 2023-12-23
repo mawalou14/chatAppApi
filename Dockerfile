@@ -22,3 +22,4 @@ EXPOSE 3000
 #################
 ## PRODUCTION ###
 #################
+FROM node:14 As production

@@ -11,3 +11,6 @@ COPY package*.json ./
 
 # Install all deps inside the container
 RUN npm install
+
+# Bundle APP Sources
+COPY . .

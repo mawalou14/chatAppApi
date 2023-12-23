@@ -4,3 +4,7 @@ FROM node:14 AS development
 
 # Specify working directory inside container
 WORKDIR /mawalou14/src/app
+
+# Copy package-lock json & package.json from
+# host to container working dir
+COPY package*.json ./
